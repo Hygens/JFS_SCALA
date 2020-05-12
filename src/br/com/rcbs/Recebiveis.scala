@@ -35,7 +35,7 @@ object Recebiveis extends App {
   
   // Portion of a receivable
   case class parcelas(var rcvb: BigDecimal,var parList:ListBuffer[BigDecimal],var perda:BigDecimal)
-  val format = "Recebível , Parcelas, Valor_Perda"
+  val format = "Receivable , Parcel, Loss_Value"
   val result = StringBuilder.newBuilder
   var parcels = ListBuffer[parcelas]()
   
