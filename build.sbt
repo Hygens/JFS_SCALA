@@ -1,10 +1,15 @@
+scalaVersion := "2.11.8"
+
 name := "JFS_SCALA"
 
 organization := "br.com.rcbs"
 
 version := "1.0-SNAPSHOT"
 
-description := "Cessão de Recebíveis - Minimização de Perdas"
+// set the main class for the main 'sbt run' task
+mainClass in (Compile, run) := Some("br.com.rcbs.Recevables")
+
+description := "Assignment of Receivables - Minimization of Losses"
 
 publishMavenStyle := true
 

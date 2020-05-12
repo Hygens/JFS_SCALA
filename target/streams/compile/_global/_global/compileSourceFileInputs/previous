@@ -1,0 +1,1 @@
+["sbt.Task[scala.collection.immutable.Map[java.lang.String, scala.collection.Seq[scala.Tuple2[java.nio.file.Path, sbt.nio.FileStamp]]]]",{"2.11.8":{"hashes":[["/home/jose/github_projs/JFS_SCALA/src/main/scala/br/com/rcbs/Recevables.scala","791d25bba8c5d76a947f01cf2d9ff4f8a6e85d74"]],"lastModifiedTimes":[]}}]

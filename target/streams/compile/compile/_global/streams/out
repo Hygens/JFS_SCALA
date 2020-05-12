@@ -1,0 +1,33 @@
+[0m[[0m[31merror[0m] [0m[0m/home/jose/github_projs/JFS_SCALA/src/main/scala/br/com/rcbs/Recevables.scala:34:32: class ListBuffer takes type parameters[0m
+[0m[[0m[31merror[0m] [0m[0m     xs.toSet.subsets.map(_.to[ListBuffer])[0m
+[0m[[0m[31merror[0m] [0m[0m                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jose/github_projs/JFS_SCALA/src/main/scala/br/com/rcbs/Recevables.scala:34:31: missing argument list for method to in trait IterableOnceOps[0m
+[0m[[0m[31merror[0m] [0m[0mUnapplied methods are only converted to functions when a function type is expected.[0m
+[0m[[0m[31merror[0m] [0m[0mYou can make this conversion explicit by writing `to _` or `to(_)` instead of `to`.[0m
+[0m[[0m[31merror[0m] [0m[0m     xs.toSet.subsets.map(_.to[ListBuffer])[0m
+[0m[[0m[31merror[0m] [0m[0m                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jose/github_projs/JFS_SCALA/src/main/scala/br/com/rcbs/Recevables.scala:55:60: class ListBuffer takes type parameters[0m
+[0m[[0m[31merror[0m] [0m[0m    val aList: ListBuffer[Int] = (MIN_RCBV to MAX_RCBV).to[ListBuffer][0m
+[0m[[0m[31merror[0m] [0m[0m                                                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jose/github_projs/JFS_SCALA/src/main/scala/br/com/rcbs/Recevables.scala:55:59: missing argument list for method to in trait IterableOnceOps[0m
+[0m[[0m[31merror[0m] [0m[0mUnapplied methods are only converted to functions when a function type is expected.[0m
+[0m[[0m[31merror[0m] [0m[0mYou can make this conversion explicit by writing `to _` or `to(_)` instead of `to`.[0m
+[0m[[0m[31merror[0m] [0m[0m    val aList: ListBuffer[Int] = (MIN_RCBV to MAX_RCBV).to[ListBuffer][0m
+[0m[[0m[31merror[0m] [0m[0m                                                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jose/github_projs/JFS_SCALA/src/main/scala/br/com/rcbs/Recevables.scala:56:93: class ListBuffer takes type parameters[0m
+[0m[[0m[31merror[0m] [0m[0m    val aListR: ListBuffer[Int] = aList(scala.util.Random.shuffle((0 until aList.length).to[ListBuffer]))   [0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jose/github_projs/JFS_SCALA/src/main/scala/br/com/rcbs/Recevables.scala:56:92: missing argument list for method to in trait IterableOnceOps[0m
+[0m[[0m[31merror[0m] [0m[0mUnapplied methods are only converted to functions when a function type is expected.[0m
+[0m[[0m[31merror[0m] [0m[0mYou can make this conversion explicit by writing `to _` or `to(_)` instead of `to`.[0m
+[0m[[0m[31merror[0m] [0m[0m    val aListR: ListBuffer[Int] = aList(scala.util.Random.shuffle((0 until aList.length).to[ListBuffer]))   [0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jose/github_projs/JFS_SCALA/src/main/scala/br/com/rcbs/Recevables.scala:59:88: class ListBuffer takes type parameters[0m
+[0m[[0m[31merror[0m] [0m[0m      val list = subCombinationsSum(_parcels).filter(list => list.sum==_parcels(0)).to[ListBuffer]       [0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jose/github_projs/JFS_SCALA/src/main/scala/br/com/rcbs/Recevables.scala:59:87: missing argument list for method to in trait IterableOnceOps[0m
+[0m[[0m[31merror[0m] [0m[0mUnapplied methods are only converted to functions when a function type is expected.[0m
+[0m[[0m[31merror[0m] [0m[0mYou can make this conversion explicit by writing `to _` or `to(_)` instead of `to`.[0m
+[0m[[0m[31merror[0m] [0m[0m      val list = subCombinationsSum(_parcels).filter(list => list.sum==_parcels(0)).to[ListBuffer]       [0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m8 errors found[0m

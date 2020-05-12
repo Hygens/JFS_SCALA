@@ -19,13 +19,13 @@ also random in the generation of values.
 csv of each process.
 
 Generated file Runtime (s)
-Loss_Result_1.csv 31.85s
-Result_Loss_2.csv 32.157s
-Loss_Result_3.csv 31.433s
-Result_Loss_4.csv 32.198s
-Result_Loss_5.csv 32.382s
+Loss_Result_1.csv 36.622s
+Loss_Result_2.csv 32.228s
+Loss_Result_3.csv 41.988s
+Loss_Result_4.csv 32.101s
+Loss_Result_5.csv 31.966s
 
-Average Runtime: 32.004s
+Average Runtime: 34.981s
 
  
 # Analyze
