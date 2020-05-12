@@ -89,7 +89,7 @@ object Recebiveis extends App {
   }
   val start = System.currentTimeMillis()
   processa()  
-  new PrintWriter("Resultado_Perdas.csv") { write(result.toString); close }
+  new PrintWriter("Loss_Result.csv") { write(result.toString); close }
   val end = System.currentTimeMillis()
   println("Running time =========> "+(end-start)/1000.0)
 }
