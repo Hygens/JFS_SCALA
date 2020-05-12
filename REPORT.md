@@ -1,41 +1,40 @@
-# Comentários da Solução
+# Solution Comments
 
-A solução desenhada propõe em algumas partes uma abordagem um pouco
-diferente da proposta não apresentando apenas as parcelas selecionadas
-como menor Perda, mas, um agrupamento de parcelas com a visualização
-crescente de perdas onde sempre em cada bloco o primeiro conjunto de
-parcelas representa em valores nominais a menor perda.
+The designed solution proposes in some parts a slightly different approach
+different from the proposal not only presenting the selected parcels
+as less Loss, but, a grouping of plots with the visualization
+increasing losses where always in each block the first set of
+installments represent the lowest loss in nominal values.
 
-O agrupamento além de permitir uma visualização melhor dos dados atenta
-para uma massa de dados preparada como insumo para ML.
+The grouping besides allowing a better visualization of the data attentive
+for a mass of data prepared as an input for ML.
 
-Não há uma distribuição normal nas parcelas, mas, uma correlação entre
-o número de parcelas e total de parcelas geradas em cada caso de forma 
-randômica também na geração de valores.
+There is no normal distribution in the plots, but a correlation between
+the number of parcels and total parcels generated in each case
+also random in the generation of values.
 
-# Tempos de execução
+# Execution times
 
-* Foram armazenados os tempos de execução do processo em segundos com a geração do arquivo 
-csv de cada processo.
+* Process execution times were stored in seconds with file generation
+csv of each process.
 
-Arquivo Gerado                  Tempo de execução(s) 
-Resultado_Perdas_1.csv                 31.85s
-Resultado_Perdas_2.csv                 32.157s
-Resultado_Perdas_3.csv                 31.433s
-Resultado_Perdas_4.csv                 32.198s
-Resultado_Perdas_5.csv                 32.382s     
+Generated file Runtime (s)
+Loss_Result_1.csv 31.85s
+Result_Loss_2.csv 32.157s
+Loss_Result_3.csv 31.433s
+Result_Loss_4.csv 32.198s
+Result_Loss_5.csv 32.382s
 
-Tempo Médio de Execução: 32.004s                      
+Average Runtime: 32.004s
 
- 
-# Análise
+ 
+# Analyze
 
-* Numa análise preliminar observei uma certa tendência onde em grande parte dos casos ocorre mais 
-de um conjunto de dados representativos da "menor perda" e/ou a "repetição de valores nominais" para 
-outros conjuntos de parcelas.
+* In a preliminary analysis I observed a certain trend where in most cases it occurs more
+a set of data representative of the "lowest loss" and / or the "repetition of nominal values" for
+other sets of plots.
 
-* Em literalmente todos os casos a parcela única detém a maior perda não importando seu valor.
+* In literally all cases the single installment holds the greatest loss regardless of its value.
 
-* O aumento da perda é quase linear no conjunto de perdas representando dados com baixa dispersão.
-
+* The increase in loss is almost linear in the set of losses representing data with low dispersion.
 
